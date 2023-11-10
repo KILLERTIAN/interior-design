@@ -48,10 +48,25 @@ const Hero = () => {
           </ul>
           {/* <img src={} alt="" /> */}
         </div>
-
-
       </div>
+      <FadeIn delay={0.2} direction="down" padding fullWidth>
+        <h1 className="mt-[90px] text-center text-5xl leading-tight xs:text-[64px] max-w-[1050px] text-white">
+          {heroTitle}
+        </h1>
+      </FadeIn>
+      <FadeIn delay={0.4} direction="down" padding fullWidth>
+        <h5 className="mt-6 text-center text-lg xs:text-xl max-w-[500px] text-white ">
+          {heroSubtitle}
+        </h5>
+      </FadeIn>
+      <FadeIn delay={0.2} direction="up" padding fullWidth>
+        <div className="relative w-full xs:w-[460px] mt-11 " >
+          <input type="text" placeholder="Search" className="rounded-full w-full pl-6 pr-[68px] py-4 bg-primary outline-none text-white text-base xs:text-lg placeholder-white" />
+          <img src={searchIcon} alt="" className="absolute top-2/4 -translate-y-2/4 right-3 h-11 w-11 cursor-pointer" />
+        </div>
 
+      </FadeIn>
+      <div className="absolute h-[50px] xs:h-[150px] bottom-0 w-full bg-[linear-gradient(180deg,_#ffffff00_0%,_FFF_100%]"></div>
     </div >
 
   );

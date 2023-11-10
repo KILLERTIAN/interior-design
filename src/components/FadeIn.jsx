@@ -17,7 +17,7 @@ const FadeIn = ({ children, delay, direction, fullWidth, padding }) => {
     }
   }, [isInView, controls]
   )
-  return <div ref={ref} className={`${fullWidth ? "w-full " : "w-auto"} ${padding ? "px-10" : "px-0"}flex items-center justify-center`}>
+  return <div ref={ref} className={`${fullWidth ? "w-full " : "w-auto"} ${padding ? "px-10" : "px-0"} flex items-center justify-center`}>
     <motion.div
       variants={{
         hidden: {
@@ -33,10 +33,10 @@ const FadeIn = ({ children, delay, direction, fullWidth, padding }) => {
       initial="hidden"
       animate={controls}
       transition={{
-        duration:1.25,
-        type:"tween",
-        delay:delay,
-        ease:[0.25,0.25,0.25,0.75],
+        duration: 1.25,
+        type: "tween",
+        delay: delay,
+        ease: [0.25, 0.25, 0.25, 0.75],
       }}
 
     >{children}</motion.div>
