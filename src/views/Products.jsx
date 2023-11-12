@@ -14,8 +14,24 @@ const Products = () => {
         <h1 className="text-center 2xl:text-start text-fontBlack text-5xl lg:text-[64px] font-medium mb-6">
           {productsTitle}
         </h1>
+        <button className="flex items-center gap-2 transparrent text-fontBlack border-transparent font-bold py-2 px-4 rounded-lg w-fit border hover:border-black outline-none focus:outline-none ease-linear transition-all duration-350 mx-auto 2xl:mx-0 mb-10 2xl:mb-0">
+          <h5 className="text-lg lg:text-xl text-[#4F4F4F] font-medium">
+            {productsBtnText}
+          </h5>
+          <img src={arrowIcon} alt="" />
+        </button>
       </div>
     </FadeIn>
+    <div className="w-full flex flex-col md:flex-row gap-[160px] md:gap-6">
+      {products.map((product, i) => (
+        <FadeIn key={i} delay={(i + 1) * 0.2} direction="left" fullWidth>
+          <div className="h-[510px] relative flex-1 bg-[#C1D0E4] rounded-[50px] max-w-[500px] ">
+            <img src={product.img} alt=""
+              className="absolute -top-[120px] left-1/2 -translate-x-1/2" />
+          </div>
+        </FadeIn>
+      ))}
+    </div>
   </div>;
 };
 

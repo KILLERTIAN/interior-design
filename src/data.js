@@ -33,7 +33,7 @@ export const services = [
 ];
 
 export const productsTitle = "Best Selling Products";
-export const productsBtnText = "See Colection";
+export const productsBtnText = "See Collection";
 
 export const products = [
   {
