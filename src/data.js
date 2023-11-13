@@ -37,7 +37,7 @@ export const productsBtnText = "See Collection";
 
 export const products = [
   {
-    title: "Golden Pothos",
+    title: "Golden Photos",
     price: "$65.99",
     img: productOneIcon,
   },
