@@ -55,9 +55,9 @@ const Hero = () => {
         </h1>
       </FadeIn>
       <FadeIn delay={0.4} direction="down" padding fullWidth>
-        <h5 className="mt-6 text-center text-lg xs:text-xl max-w-[500px] text-white ">
+        <h2 className="mt-6 text-center text-5xl xs:text-[54px] max-w-[1000px] text-white ">
           {heroSubtitle}
-        </h5>
+        </h2>
       </FadeIn>
       <FadeIn delay={0.2} direction="up" padding fullWidth>
         <div className="relative w-full xs:w-[460px] mt-11 " >
