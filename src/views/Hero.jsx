@@ -1,8 +1,8 @@
-import react, { useState } from "react";
+import { useState } from "react";
 
 // local imports
 import heroImage from "../assets/hero-image.svg";
-import logo from "../assets/logo.svg";
+import spacialogo from "../assets/spacia-logo.jpg";
 import cartIcon from "../assets/cart-icon.svg";
 import searchIcon from "../assets/search-icon.svg";
 
@@ -28,7 +28,7 @@ const Hero = () => {
       }}
     >
       <div className="relative w-full max-w-[1490px] flex items-center justify-between pt-10 mx-auto px-10">
-        <img src="public/spacia-logo.jpg" alt="" className="h-[50px] w-[100px]" />
+        <img src={spacialogo} alt="" className="h-[50px] w-[80px]" />
         <ul className="hidden md:flex items-center gap-10 lg:gap=[68px]">
           <NavLink to="services">Services</NavLink>
           <NavLink to="products">Shop</NavLink>
@@ -46,7 +46,6 @@ const Hero = () => {
             <NavLink to="reference" mobileMenu>Reference</NavLink>
             <NavLink to="care" mobileMenu>Care</NavLink>
           </ul>
-          {/* <img src={} alt="" /> */}
         </div>
       </div>
       <FadeIn delay={0.2} direction="down" padding fullWidth>
@@ -67,7 +66,7 @@ const Hero = () => {
 
       </FadeIn>
       <div className="absolute h-[50px] xs:h-[150px] bottom-0 w-full bg-[linear-gradient(180deg,_#ffffff00_0%,_FFF_100%]"></div>
-    </div >
+    </div>
 
   );
 
