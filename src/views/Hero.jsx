@@ -28,7 +28,7 @@ const Hero = () => {
       }}
     >
       <div className="relative w-full max-w-[1490px] flex items-center justify-between pt-10 mx-auto px-10">
-        <img src={logo} alt="" />
+        <img src="public/spacia-logo.jpg" alt="" className="h-[50px] w-[100px]" />
         <ul className="hidden md:flex items-center gap-10 lg:gap=[68px]">
           <NavLink to="services">Services</NavLink>
           <NavLink to="products">Shop</NavLink>
