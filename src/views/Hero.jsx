@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import { useState } from "react";
 
 // local imports
 import heroImage from "../assets/hero-image.svg";
