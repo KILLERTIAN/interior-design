@@ -8,12 +8,18 @@ module.exports = {
         fontBlack: "#081323",
         fontGray: "#828282",
         overlay: "rgba(0, 0, 0, 0.30)",
+        overlay2: "rgba(0, 0, 0, 0.10)",
+        orange: "#faa339",
       },
       screens: {
         xs: "550px",
         md: "850px",
         xl: "1180px",
         "2xl": "1280px",
+      },
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(20px)',
       },
     },
   },
