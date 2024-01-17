@@ -1,9 +1,9 @@
 # Interior Designing Website
 
-Under development right now...
+Under development right now..
 
 Preview :-
 Deployed link :-
 
 # License 
-to be added.....
+to be added..
