@@ -2,8 +2,8 @@
 
 Under development right now...
 
-Preview :-
-Deployed link :-
+Preview :
+Deployed link :
 
 # License 
 to be added..
