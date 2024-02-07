@@ -1,6 +1,6 @@
 # Interior Designing Website
 
-Under development right now..
+Under development right now
 
 Preview :
 Deployed link :
