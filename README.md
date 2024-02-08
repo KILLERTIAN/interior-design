@@ -3,7 +3,7 @@
 Under development right now
 
 Preview :
-Deployed link :
+Deployed link : to be added..
 
 # License 
 to be added..
