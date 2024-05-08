@@ -107,8 +107,8 @@ export const footerLinksColumnTwo = [
   {
     title: "Address",
     links: [
-      "JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia",
-      "hallo@daunku.com",
+      "218-A  First Floor,Rama Market, Pitam pura New Delhi - 110 034 (India)",
+      "support@spaciainteriors.com",
     ],
   },
 ];
